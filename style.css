@@ -1,0 +1,68 @@
+body{
+    background-color: #1B2026;
+    font-family: "Inconsolata";
+}
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: end;
+    background-color: #1B1A17;
+}
+
+nav{
+    display: flex;
+    margin : 0;
+    padding: 0;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+nav a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #04BFBF;
+     margin-right: 21px;
+    margin-top: 0;
+}
+
+.welcome{
+    width: 800px;
+    height: 179px;
+    margin-top: 170px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome div h1{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+
+.welcome div h2{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #04BFBF;
+}
+
+.welcome div p{
+    width: 445px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.welcome div img{
+    width: 220px;
+    height: 210px;
+    border-radius: 50%;
+}
